@@ -82,10 +82,23 @@ export default {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        "pulse-slow": {
+          "0%, 100%": { 
+            opacity: "1",
+            transform: "scale(1)",
+            boxShadow: "0 0 20px hsl(var(--accent) / 0.4)"
+          },
+          "50%": { 
+            opacity: "0.9",
+            transform: "scale(1.02)",
+            boxShadow: "0 0 30px hsl(var(--accent) / 0.6)"
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "pulse-slow": "pulse-slow 2s ease-in-out infinite",
       },
     },
   },
