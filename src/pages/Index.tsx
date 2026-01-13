@@ -2,7 +2,6 @@ import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import FeaturesGrid from "@/components/FeaturesGrid";
 import CTAButton from "@/components/CTAButton";
-import TrustBadge from "@/components/TrustBadge";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -21,7 +20,6 @@ const Index = () => {
           <HeroSection />
           <FeaturesGrid />
           <CTAButton />
-          <TrustBadge />
         </main>
         <Footer />
       </div>
