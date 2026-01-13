@@ -1,16 +1,9 @@
 import bannerImage from "@/assets/roll88-banner.png";
-
 const HeroSection = () => {
-  return (
-    <section className="w-full px-4 pt-2 pb-6">
+  return <section className="w-full px-4 pt-2 pb-6">
       {/* Banner Image */}
       <div className="w-full max-w-md mx-auto mb-6 rounded-xl overflow-hidden shadow-card">
-        <img
-          src={bannerImage}
-          alt="Roll88 New Member Bonus"
-          className="w-full h-auto object-cover"
-          loading="eager"
-        />
+        <img alt="Roll88 New Member Bonus" className="w-full h-auto object-cover" loading="eager" src="/lovable-uploads/fddd48dc-21b8-43ef-8923-9cf5b28ebfa7.png" />
       </div>
 
       {/* Headline */}
@@ -25,8 +18,6 @@ const HeroSection = () => {
           สมัครสมาชิกใหม่รับโบนัส 100% ทันที!
         </p>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
