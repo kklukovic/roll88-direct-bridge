@@ -84,14 +84,10 @@ export default {
         },
         "pulse-slow": {
           "0%, 100%": { 
-            opacity: "1",
-            transform: "scale(1)",
-            boxShadow: "0 0 0 0 hsl(var(--accent) / 0.7)"
+            boxShadow: "0 0 15px hsl(var(--accent) / 0.4), 0 0 30px hsl(var(--accent) / 0.2)"
           },
           "50%": { 
-            opacity: "1",
-            transform: "scale(1.03)",
-            boxShadow: "0 0 0 10px hsl(var(--accent) / 0)"
+            boxShadow: "0 0 25px hsl(var(--accent) / 0.6), 0 0 50px hsl(var(--accent) / 0.4)"
           },
         },
       },
