@@ -11,14 +11,14 @@ const TelegramSection = () => {
           href="https://t.me/+VvAuDpNKH4I4OTg0"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-[hsl(200,80%,45%)] text-white font-bold text-sm transition-all hover:scale-105 active:scale-95"
-        >
+          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-[hsl(200,80%,45%)] text-white font-bold text-sm transition-all hover:scale-105 active:scale-95">
+
           <Send className="w-4 h-4" />
-          <span>เข้าสู่กลุ่ม Telegram (36 Members)</span>
+          <span>เข้าสู่กลุ่ม Telegram (45 Members)</span>
         </a>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default TelegramSection;
