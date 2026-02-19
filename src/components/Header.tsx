@@ -1,8 +1,10 @@
+import { ArrowRight } from "lucide-react";
+
 const Header = () => {
   const ctaUrl = "https://login.rollpartners.com/visit/?bta=35172&nci=5345";
 
   return (
-    <header className="w-full py-4 px-4 flex flex-col justify-center items-center gap-2">
+    <header className="w-full py-3 px-4 flex items-center justify-between">
       <div className="flex items-center gap-1">
         <span className="text-2xl font-black tracking-tight">
           <span className="text-secondary">ROLL</span>
@@ -13,9 +15,10 @@ const Header = () => {
         href={ctaUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-sm text-secondary underline hover:text-primary transition-colors"
+        className="flex items-center gap-1.5 px-4 py-2 rounded-lg bg-gradient-to-r from-primary to-gold-light text-primary-foreground font-bold text-sm transition-all hover:scale-105 active:scale-95 shadow-gold"
       >
-        👉 [คลิกที่นี่] รับโบนัสสมาชิกใหม่ 100%
+        <span>ทางเข้าเล่นหลัก</span>
+        <ArrowRight className="w-4 h-4" />
       </a>
     </header>
   );

