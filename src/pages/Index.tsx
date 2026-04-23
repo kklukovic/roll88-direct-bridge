@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import FeaturesGrid from "@/components/FeaturesGrid";
 import CTAButton from "@/components/CTAButton";
+import JerseyPromo from "@/components/JerseyPromo";
 import TelegramSection from "@/components/TelegramSection";
 import StatusBar from "@/components/StatusBar";
 import Footer from "@/components/Footer";
@@ -22,6 +23,7 @@ const Index = () => {
           <HeroSection />
           <FeaturesGrid />
           <CTAButton />
+          <JerseyPromo />
           <TelegramSection />
         </main>
         <StatusBar />
