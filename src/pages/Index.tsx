@@ -20,10 +20,10 @@ const Index = () => {
       <div className="relative z-10 flex flex-col min-h-screen">
         <Header />
         <main className="flex-1">
+          <JerseyPromo />
           <HeroSection />
           <FeaturesGrid />
           <CTAButton />
-          <JerseyPromo />
           <TelegramSection />
         </main>
         <StatusBar />
