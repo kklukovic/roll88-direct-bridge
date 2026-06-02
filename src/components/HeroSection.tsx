@@ -1,5 +1,5 @@
 import { ArrowRight, Sparkles } from "lucide-react";
-import pimHero from "@/assets/pim-hero.png.asset.json";
+import pimHero from "@/assets/pim-hero.png";
 
 const CASINO_URL = "https://login.rollpartners.com/visit/?bta=35172&nci=5345";
 
@@ -27,7 +27,7 @@ const HeroSection = () => {
           <div className="relative w-full h-full rounded-full p-1 bg-gradient-gold shadow-gold">
             <img
               id="pim-hero"
-              src={pimHero.url}
+              src={pimHero}
               alt="Pim - Roll88 World Cup 2026"
               className="w-full h-full rounded-full object-cover border-2 border-navy"
             />
